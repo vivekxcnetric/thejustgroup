@@ -16,7 +16,7 @@ const SliderComponent = () => {
   const fetchData = async () => {
     try {
       const res = await axios.get(
-        "http://49.206.253.146:2109/content/justGroup"
+        "http://106.51.242.196:2109/content/justGroup"
       );
       const apiData = res.data;
 
@@ -60,11 +60,11 @@ const SliderComponent = () => {
     );
   };
   const link = [
-    "http://49.206.253.146:2275",
-    "http://49.206.253.146:2234",
-    "http://49.206.253.146:2269",
-    "http://49.206.253.146:2245",
-    "http://49.206.253.146:2273",
+    "http://106.51.242.196:2275",
+    "http://106.51.242.196:2234",
+    "http://106.51.242.196:2269",
+    "http://106.51.242.196:2245",
+    "http://106.51.242.196:2273",
   ];
   const PrevArrow = (props) => {
     const { className, style, onClick } = props;

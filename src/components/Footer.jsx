@@ -7,11 +7,11 @@ import MoreBrand from "./MoreBrand";
 const Footer = () => {
   const { brands } = useContext(BrandContext);
   const link = [
-    "http://49.206.253.146:2245",
-    "http://49.206.253.146:2275",
-    "http://49.206.253.146:2273",
-    "http://49.206.253.146:2234",
-    "http://49.206.253.146:2269",
+    "http://106.51.242.196:2234", // Jay Jays
+    "http://106.51.242.196:2273", // Dotti
+    "http://106.51.242.196:2275", // Portmans
+    "http://106.51.242.196:2245", // Just Jeans
+    "http://106.51.242.196:2269", // Jacqui E
   ];
   return (
     <FooterDiv>
